@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>画中有花朵 · 阅读助手</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topline">阅读指引</div>
+      <h1>画中有花朵</h1>
+      <p>中国古画中的花卉世界</p>
+    </header>
+
+    <main class="reader">
+      <nav id="chapterNav" class="chapter-nav" aria-label="章节"></nav>
+
+      <section class="chapter-head">
+        <div id="eyebrow" class="eyebrow"></div>
+        <h2 id="pageTitle"></h2>
+        <p id="pageMeta"></p>
+      </section>
+
+      <section class="section-turner">
+        <button id="prevSectionBtn" class="turn-button" type="button" aria-label="上一小节">‹</button>
+        <div id="sectionTabs" class="section-tabs" aria-label="章内小节"></div>
+        <button id="nextSectionBtn" class="turn-button" type="button" aria-label="下一小节">›</button>
+      </section>
+
+      <article id="contentArea" class="content-card"></article>
+    </main>
+
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
