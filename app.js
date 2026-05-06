@@ -128,7 +128,7 @@ function renderEntry(entry, blockTitle, checkable = state.view === "chapter") {
 function renderReferences(refs) {
   if (!refs.length) return "";
   return `<aside class="reference-panel">
-    <h3>本章参考文献</h3>
+    <h3>拓展文献阅读</h3>
     <ol class="reference-list">${refs.map((ref) => `<li>${escapeHtml(shortReference(ref))}</li>`).join("")}</ol>
   </aside>`;
 }
