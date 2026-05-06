@@ -36,7 +36,7 @@ input {
 .site-header {
   position: relative;
   overflow: hidden;
-  padding: 34px 22px 30px;
+  padding: 20px 18px 16px;
   color: #fff5dc;
   background:
     linear-gradient(135deg, rgba(167, 68, 50, 0.25), transparent 38%),
@@ -65,7 +65,7 @@ input {
 .site-header h1 {
   position: relative;
   margin: 10px 0 8px;
-  font-size: clamp(38px, 12vw, 64px);
+  font-size: clamp(28px, 9vw, 64px);
   font-weight: 500;
   line-height: 1;
 }
@@ -80,7 +80,7 @@ input {
 .reader {
   width: min(100%, 880px);
   margin: 0 auto;
-  padding: 18px 14px 44px;
+  padding: 10px 12px 36px;
 }
 
 .info-panel {
@@ -122,8 +122,8 @@ input {
 .chapter-nav {
   display: flex;
   gap: 8px;
-  margin: 0 -14px 18px;
-  padding: 0 14px 8px;
+  margin: 0 -12px 12px;
+  padding: 0 12px 6px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
 }
@@ -176,13 +176,13 @@ input {
 }
 
 .chapter-head {
-  padding: 18px 4px 12px;
+  padding: 10px 4px 8px;
 }
 
 .chapter-head h2 {
   margin: 7px 0 8px;
   color: var(--green);
-  font-size: clamp(26px, 8vw, 54px);
+  font-size: clamp(22px, 6.5vw, 54px);
   font-weight: 500;
   line-height: 1.12;
 }
@@ -190,8 +190,8 @@ input {
 .chapter-head p {
   margin: 0;
   color: var(--muted);
-  font-size: 14px;
-  line-height: 1.65;
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 .section-turner {
@@ -252,7 +252,7 @@ input {
 
 .content-card {
   min-height: 360px;
-  padding: 16px 14px 20px;
+  padding: 14px 12px 18px;
   background:
     linear-gradient(90deg, rgba(183, 138, 67, 0.08) 1px, transparent 1px) 0 0 / 42px 42px,
     var(--card);
@@ -277,9 +277,9 @@ input {
 }
 
 .entry {
-  margin: 0 0 16px;
-  font-size: 16px;
-  line-height: 1.75;
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .entry p {
@@ -313,14 +313,14 @@ input {
 
 .plain-list-item {
   margin-left: 1.3em;
-  margin-bottom: 8px;
-  line-height: 1.65;
+  margin-bottom: 10px;
+  line-height: 1.6;
   list-style: decimal;
 }
 
 .invitation {
-  margin: 26px 0 0;
-  padding: 18px;
+  margin: 18px 0 0;
+  padding: 14px;
   color: #fff8e8;
   background: linear-gradient(135deg, var(--green), var(--green-dark));
   border-radius: 8px;
@@ -329,7 +329,7 @@ input {
 .invitation p {
   margin: 0;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
 .cover-panel {
@@ -347,12 +347,12 @@ input {
 }
 
 .tool-note {
-  margin-top: 20px;
-  padding-top: 14px;
+  margin-top: 24px;
+  padding-top: 18px;
   color: var(--muted);
   border-top: 1px solid rgba(212, 189, 134, 0.72);
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .tool-note p {
@@ -360,7 +360,7 @@ input {
 }
 
 .question-text {
-  line-height: 1.65;
+  line-height: 1.6;
 }
 
 .question-check {
@@ -387,7 +387,7 @@ input {
   counter-reset: ref;
   color: var(--muted);
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 .reference-list li {
